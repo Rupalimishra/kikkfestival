@@ -1,0 +1,68 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+/* .container center {
+  text-align: center;
+} */
+/* body{
+  background: url("https://www.kikk.be/2017/files/templates/kikk2017/public/assets/videos/king-kong.mp4?v=2");
+} */
+.menu_list-item {
+ list-style-type: none;
+ display: inline-flex;
+ padding: 20px;
+ font: 15px Sans-serif;
+}
+.menu_list-item :hover{
+ color: #095d60;
+  
+}
+.menu_style {
+  list-style-type: none;
+}
+.menu_button {
+  background-color: coral;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  list-style-type: none;
+}
+.dropdown-content a:hover {
+  background-color: blue;
+}
