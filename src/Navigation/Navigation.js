@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
+// import Logo from '../Logo/Logo';
 import './Navigation.css';
 class Navigation extends Component {
     render() {
         return(
-            <div className="container center">
+          <div className="container center">
+            {/* <Logo /> */}
           <nav className="menu">
           <h1 className="menu_logo"></h1>
           <ul className="menu_list">
-            <li className="menu_list-item"><a className="menu_link" href="#">LIVE</a></li>
-            <li className="menu_list-item"><a className="menu_link" href="#">PROGRAM
+            <li className="menu_list-item">LIVE</li>
+            <li className="menu_list-item">PROGRAM
               <ul className="dropdown-content">
               <li>CONFERENCES</li>
               <li>EXHIBITION</li>
@@ -21,11 +23,11 @@ class Navigation extends Component {
               <li>BELFIUS AWARD</li>
               <li>REBOOT</li>
             </ul>
-            </a></li>
-            <li className="menu_list-item"><a className="menu_link" href="#">TIMETABLE</a></li>
-            <li className="menu_list-item"><a className="menu_link" href="#">PRACTICAL</a></li>
-            <li className="menu_list-item"><a className="menu_link" href="#">ABOUT</a></li>
-            <li className="menu_list-item"><a className="menu_link" href="#">SPONSORS</a></li>
+            </li>
+            <li className="menu_list-item">TIMETABLE</li>
+            <li className="menu_list-item">PRACTICAL</li>
+            <li className="menu_list-item">ABOUT</li>
+            <li className="menu_list-item">SPONSORS</li>
               <button className="menu_button">Get tickets</button>
           </ul>
         </nav>
