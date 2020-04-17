@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
-// import Logo from '../Logo/Logo';
-import './Navigation.css';
-class Navigation extends Component {
-    render() {
-        return(
-          <div className="container center">
-            {/* <Logo /> */}
-          <nav className="menu">
-          <h1 className="menu_logo"></h1>
-          <ul className="menu_list">
+import React from 'react';
+import "./Header.css";
+
+const Header = (props) => {
+    return(
+        <header>
+            <nav>
+            <ul className="menu_list">
             <li className="menu_list-item">LIVE</li>
             <li className="menu_list-item">PROGRAM
-              <ul className="dropdown-content">
+            <div>
+            <ul className="dropdown-content">
               <li>CONFERENCES</li>
               <li>EXHIBITION</li>
               <li>KIKK IN TOWN</li>
@@ -23,16 +21,26 @@ class Navigation extends Component {
               <li>BELFIUS AWARD</li>
               <li>REBOOT</li>
             </ul>
+            </div>
+             
             </li>
             <li className="menu_list-item">TIMETABLE</li>
             <li className="menu_list-item">PRACTICAL</li>
             <li className="menu_list-item">ABOUT</li>
             <li className="menu_list-item">SPONSORS</li>
-              <button className="menu_button">Get tickets</button>
+             <ul className="menu_button">
+                 <li className="hide-style">Get tickets</li>
+                 </ul>
+                 <ul className="menu_button1">
+                     <li>Free tickets</li>
+                 </ul>
+                 <ul className="menu_button2">
+                 <li>Pass tickets</li>
+                 </ul>
+                
           </ul>
-        </nav>
-      </div>
-        )
-    }
+            </nav>
+        </header>
+    )
 }
-export default Navigation;
+export default Header;
