@@ -4,8 +4,11 @@ import './Logo.css';
 class Logo extends Component {
     render(){
         return(
-            <div className="menu_logo ">
-                <img src={kikkfestival} alt="kikfestival"/>
+            <div>
+                <div className="div-left">
+                <img src={kikkfestival} alt="kikfestival" style={{height:"57px" , padding:"56px", position:"relative", bottom:"3px" }}  />
+                </div>
+               
             </div>
         )
     }

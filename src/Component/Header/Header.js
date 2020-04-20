@@ -6,9 +6,10 @@ const Header = (props) => {
         <header>
             <nav>
             <ul className="menu_list">
-            <li className="menu_list-item">LIVE</li>
-            <li className="menu_list-item">PROGRAM
-            <div>
+            <li className="menu_list-item"> <a href="#" className="left">LIVE</a></li>
+            
+            <div className="dropdown">
+            <li className="menu_list-item"> <a href="#" className="left">PROGRAM</a>
             <ul className="dropdown-content">
               <li>CONFERENCES</li>
               <li>EXHIBITION</li>
@@ -21,13 +22,12 @@ const Header = (props) => {
               <li>BELFIUS AWARD</li>
               <li>REBOOT</li>
             </ul>
-            </div>
-             
             </li>
-            <li className="menu_list-item">TIMETABLE</li>
-            <li className="menu_list-item">PRACTICAL</li>
-            <li className="menu_list-item">ABOUT</li>
-            <li className="menu_list-item">SPONSORS</li>
+            </div>
+            <li className="menu_list-item"><a href="#" className="left">TIMETABLE</a></li>
+            <li className="menu_list-item"><a href="#" className="left">PRACTICAL</a></li>
+            <li className="menu_list-item"><a href="#" className="left">ABOUT</a></li>
+            <li className="menu_list-item"><a href="#" className="left">SPONSORS</a></li>
              <ul className="menu_button">
                  <li className="hide-style">Get tickets</li>
                  </ul>

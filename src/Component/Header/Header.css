@@ -1,17 +1,24 @@
+.menu_list {
+  float: right;
+  width: 70%;
+  position: relative;
+  bottom: 2791px;
+}
 .menu_list-item {
     list-style-type: none;
     display: inline-flex;
     padding: 20px;
-    font: 15px Sans-serif;
+    font: 16px Helvetica, Arial,Sans-serif;
     
    }
    .menu_list li:hover {
-       text-decoration: underline;
        color: #095d60;
    }
+   .menu_list-item li:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+   }
 
-   
-  
    .menu_button {
      background-color: #ff988c;
      border: none;
@@ -40,7 +47,7 @@
     cursor: pointer;
     list-style-type: none;
     position: absolute;
-    right: 455px; 
+    right: 69px; 
     
    }
    .menu_button2{
@@ -58,17 +65,47 @@
     position: absolute;
     right: 455px;
    }
-   .dropdown-content {
-     position: absolute;
-     min-width: 160px;
-     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-     z-index: 1;
-     list-style-type: none;
-     height: 188px;
-     top: 64px;
-     display: inline-block;
-     cursor: pointer;
-   }
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style-type: none;
+    letter-spacing: 1px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
    .menu_list-item1 {
     list-style-type: none;
     display: inline-flex;
@@ -82,5 +119,26 @@
    .menu_button:hover + .menu_button1  {
      display: block;
    }
+   a.left
+   {
+       position: relative;
+   }
+   
+   a.left:before {
+     content: "";
+     position: absolute;
+     width: 0;
+     height: 2px;
+     bottom: 0;
+     left: 0;
+     background-color: #095d60;
+     visibility: hidden;
+     transition: all 0.3s ease-in-out;
+   }
+
+   a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
   
    
