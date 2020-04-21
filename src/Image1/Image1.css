@@ -1,7 +1,9 @@
 
 .div-left{
+   z-index: 1;
    position: relative;
-   bottom: 2647px;
+   top: 1px;
+   height: 56px;
 }
 .u-visually-hidden{
    border: 0;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Textstyle from '../Textstyle/Textstyle';
-import Icon from '../Icon/Icon';
+import Image1 from '../Image1/Image1';
 import './Video.css';
 
 const Video =(props) =>{
@@ -15,7 +15,7 @@ return(
 
 
          <Textstyle />
-         <Icon />
+         <Image1 />
          
         </div>
     </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'; 
-import './Icon.css';
-class Icon extends Component {
+import './Image.css';
+class Image extends Component {
     render() {
         return(
             <div className="Icon_style">
@@ -17,4 +17,4 @@ class Icon extends Component {
         )
     }
 }
-export default  Icon;
+export default  Image;
