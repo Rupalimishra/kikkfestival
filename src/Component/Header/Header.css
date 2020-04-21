@@ -8,7 +8,6 @@
     list-style-type: none;
     display: inline-flex;
     padding: 20px;
-    font: 16px Helvetica, Arial,Sans-serif;
     
    }
    .menu_list li:hover {
@@ -118,6 +117,16 @@
   
    .menu_button:hover + .menu_button1  {
      display: block;
+   }
+   .left{
+    font: 10px Radikal,Helvetica,Arial,sans-serif;
+    letter-spacing: .35em;
+    text-transform: uppercase;
+    color: #095d60;
+    font-size: .625rem;
+    font-weight: 900;
+    padding-bottom: 14px;
+    text-decoration: none;
    }
    a.left
    {
