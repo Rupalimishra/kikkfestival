@@ -1,0 +1,22 @@
+.Main-style{
+background-color: #4da69a;
+position: absolute;
+z-index: 1;
+top: 3132px;
+width: 100%;
+height: 100%;
+}
+.div-left{
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.8);
+}
+.heading-style {
+    font-family: Domaine Disp,Times,Georgia,serif;
+    font-weight: 500;
+    margin-bottom: 50px;
+    color: #0b1e38;
+    line-height: 1.05;
+    letter-spacing: -.02em;
+    text-transform: none;
+}

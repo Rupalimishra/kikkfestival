@@ -3,6 +3,7 @@ import Card from '../Card/Card';
 import kikkfestival from '../../assest/Image/img1.jpg';
 import Card1 from '../Card1/Card1';
 import './KikkPro.css';
+// import MainCard from '../Main-Card/MainCard';
 const KikkPro = (props) => {
     return(
         <div className="Card-festival">
@@ -11,13 +12,14 @@ const KikkPro = (props) => {
          
            <div className="div-right">
                <h1 className="heading-style">KIKK . Pro</h1>
-               <h5 >NOV 02-04 . PLACE D'ARMES</h5>
-               <p>The village is the best way to network and make </p>
-               <p>new business connections at the KIKK festival</p>
+               <h5 className="style1" >NOV 02-04 . PLACE D'ARMES</h5>
+               <p className="style2">The village is the best way to network and make</p>
+              <p className="style3">  new business connections at the KIKK festival</p>
            </div>
            
            </Card>
            <Card1 />
+           {/* <MainCard /> */}
         </div>
     )
 }

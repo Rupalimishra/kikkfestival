@@ -6,12 +6,10 @@ const Card1 = (props) => {
         <div className="">
             <div  className="div-left">
                 <h1 className="heading-style">KIKK.Design</h1>
-                <h5>NOV 02-03 TH, PALAIS DES CONGRES</h5>
-                <span>The round of KIKK.Design lectures will features
-                    Design who will presents on overview of
-                    contemporary graphic creation, UX Design digital
-                    project and scenography.
-                </span>
+                <h5 className="heading-style1">NOV 02-03 TH, PALAIS DES CONGRES</h5>
+                <p className="style_para">The round of KIKK.Design lectures will features</p>
+                 <p className="style_para1">Design who will presents on overview of</p>
+                
 
             </div>
             <div className="div-right">

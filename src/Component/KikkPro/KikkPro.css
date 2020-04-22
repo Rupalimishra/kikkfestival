@@ -16,3 +16,29 @@
     font-family: Domaine disp, Time, Georgin, serif;
     margin-bottom: 14px;
 }
+.style1{
+    font-family: Radikal,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: .625rem;
+    line-height: 2.6;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    color: #00b69d;
+}
+.style2  {
+    font-size: 1rem;
+    line-height: 2;
+    letter-spacing: .01em;
+    font: 16px Radikal,Helvetica,Arial,sans-serif;
+    color: rgba;
+    color: rgba(185,215,255,0.5);
+}
+.style3{
+    font-size: 1rem;
+    line-height: 2;
+    letter-spacing: .01em;
+    font: 16px Radikal,Helvetica,Arial,sans-serif;
+    color: rgba;
+    color: rgba(185,215,255,0.5);
+}
