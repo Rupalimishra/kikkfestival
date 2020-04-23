@@ -1,0 +1,26 @@
+.divleft-style{
+    padding: 115px;
+}
+.Artist-heading {
+    font-weight: 700;
+    font-size: .625rem;
+    line-height: 2.6;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    color: #00b69d;
+    position: relative;
+    top: -440px;
+    left: 621px;
+}
+.stylehead{
+    width: 30%;
+    float: right;
+    position: relative;
+    bottom: 470px;
+    right: 284px;
+    overflow: hidden;
+    font-size: 1.0625rem;
+    line-height: 1.9;
+    max-height: 96.9px;
+    color: rgba(185, 215, 255, 0.5);
+}

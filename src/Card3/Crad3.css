@@ -1,0 +1,25 @@
+.div-right-image {
+position: relative;
+left: 723px;
+}
+.Aad-heading {
+    font-weight: 700;
+    font-size: .625rem;
+    line-height: 2.6;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    color: #00b69d;
+}
+.div-left-heading{
+    position: relative;
+    left: 320px;
+    top: 220px;
+}
+.styhead {
+    width: 30%;
+    position: relative;
+    bottom: 15px;
+    font-size: 1.0625rem;
+    line-height: 1.9;
+    color: rgba(185, 215, 255, 0.5);
+}

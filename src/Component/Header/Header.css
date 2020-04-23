@@ -1,8 +1,6 @@
 .menu_list {
   float: right;
   width: 70%;
-  position: relative;
-  bottom: 2791px;
 }
 .menu_list-item {
     list-style-type: none;
@@ -87,6 +85,12 @@
     z-index: 1;
     list-style-type: none;
     letter-spacing: 1px;
+    font-weight: 300;
+    font-size: .5625rem;
+    line-height: 3.3;
+    letter-spacing: .5em;
+    text-transform: uppercase;
+    color: #0b1e38;
   }
   
   .dropdown-content a {

@@ -26,12 +26,11 @@
     text-transform: uppercase;
     color: #00b69d;
 }
-.style2  {
+.style2 {
     font-size: 1rem;
     line-height: 2;
     letter-spacing: .01em;
     font: 16px Radikal,Helvetica,Arial,sans-serif;
-    color: rgba;
     color: rgba(185,215,255,0.5);
 }
 .style3{

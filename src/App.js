@@ -3,16 +3,17 @@ import './App.css';
 import Video from './Video/Video'
 import Header from './Component/Header/Header'
 import KikkPro from './Component/KikkPro/KikkPro';
-import Image1 from './Image1/Image1';
+// import Image1 from './Image1/Image1';
 import MainCard from './Component/Main-Card/MainCard';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Video /> 
-        <Image1 />
         <Header />
+        <Video /> 
+        {/* <Image1 /> */}
+        {/* <Header /> */}
         <MainCard />
         <KikkPro />
        
