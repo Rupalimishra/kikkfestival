@@ -7,9 +7,8 @@ class Image extends Component {
                 <p>Follow us</p>
                 <ul>
                     <li>
-                        <a href="https://www.facebook.com/KIKK.Festival" target="_blank">
-                            <span className="u-visually-hidden"></span>
-                        </a>
+                    <a href="#" className="fa fa-facebook"></a>
+
                     </li>
                 </ul>
             

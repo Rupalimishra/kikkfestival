@@ -27,3 +27,13 @@ height: 100%;
     position: relative;
     left: 318px;
 }
+.section-backround-text{
+    position: absolute;
+    transform: skewY(-16deg);
+    z-index: -1;
+    font-family: California,Times,Georgia,serif;
+    font-style: normal;
+    font-size: 6rem;
+    color: rgba(33,151,135,.6);
+    font-size: 13.4375rem;
+}

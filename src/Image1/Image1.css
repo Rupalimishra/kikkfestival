@@ -15,3 +15,8 @@
     position: absolute;
     width: 1px;
 }
+.logo-style{
+   height: 57px;
+   position: relative;
+   top: -500px;
+}

@@ -1,0 +1,19 @@
+.div-left-sty{
+    font-size: .625rem;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    color: hsla(0,0%,100%,.5);
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.div-right-sty {
+    font-weight: 300;
+    font-size: .625rem;
+    line-height: 2;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    color: hsla(0,0%,100%,.5);
+    display: inline-block;
+    vertical-align: middle;
+}

@@ -1,4 +1,37 @@
 .text_style {
-    font-family: Times,Georgia,serif;
-    font-weight: 500;
+    top: -385px;
+    position: absolute;
+}
+
+.sub-heading {
+    color: #00b69d;
+    font-size: 1.25rem;
+    font-family: California,Times,Georgia,serif;
+    font-size: 1.25rem;
+    letter-spacing: .07em;
+    transform: rotate(-20deg);
+    position: relative;
+    bottom: -48px;
+}
+.section-title {
+    font-family: California,Times,Georgia,serif;
+    color: #fff;
+    font-size: 3.5rem;
+    font-size: 5rem;
+    line-height: 1.05;
+    text-shadow: 0 0 42px #2f9d9c;
+    transform: rotate(-20deg);
+}
+
+.section-sub {
+    font-family: California,Times,Georgia,serif;
+    color: #fff;
+    font-size: 3.5rem;
+    font-size: 5rem;
+    line-height: 1.05;
+    text-shadow: 0 0 42px #2f9d9c;
+    position: relative;
+    left: 73px;
+    top: -68px;
+    transform: rotate(-20deg);
 }

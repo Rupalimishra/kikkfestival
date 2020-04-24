@@ -6,7 +6,7 @@ class Image1 extends Component {
         return(
             <div>
                 <div className="div-left">
-                <img src={kikkfestival} alt="kikfestival" />
+                <img className="logo-style" src={kikkfestival} alt="kikfestival" />
                 </div>
                
             </div>

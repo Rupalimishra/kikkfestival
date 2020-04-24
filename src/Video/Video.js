@@ -1,5 +1,5 @@
 import React from 'react';
-import Textstyle from '../Textstyle/Textstyle';
+// import Textstyle from '../Textstyle/Textstyle';
 import Image1 from '../Image1/Image1';
 // import Header from "../Component/Header/Header";
 import './Video.css';
@@ -15,7 +15,7 @@ return(
 
 
 
-         <Textstyle />
+         {/* <Textstyle /> */}
          <Image1 />
          {/* <Header /> */}
          

@@ -4,6 +4,10 @@ import Card2 from '../Card2/Card2';
 const MainCard =(props) => {
     return(
         <div className="Main-style">
+             <div className="section-backround-text">
+                 The Program
+
+             </div>
               <h1 className="card-style">Discover the Creative</h1>
               <h1>minds of the lineup</h1>
               <div className="div-left">

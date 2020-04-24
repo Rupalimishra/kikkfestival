@@ -1,6 +1,7 @@
 .div-right-image {
 position: relative;
 left: 723px;
+bottom: 524px;
 }
 .Aad-heading {
     font-weight: 700;
@@ -9,6 +10,8 @@ left: 723px;
     letter-spacing: .4em;
     text-transform: uppercase;
     color: #00b69d;
+    position: relative;
+    bottom: 316px;
 }
 .div-left-heading{
     position: relative;
@@ -18,8 +21,20 @@ left: 723px;
 .styhead {
     width: 30%;
     position: relative;
-    bottom: 15px;
+    bottom: 326px;
     font-size: 1.0625rem;
     line-height: 1.9;
     color: rgba(185, 215, 255, 0.5);
+}
+.main-style{
+    font-family: California,Times,Georgia,serif;
+    color: #fff;
+    font-size: 3.5rem;
+    font-size: 5rem;
+    line-height: 1.05;
+    text-shadow: 0 0 42px #2f9d9c;
+    transform: rotate(-20deg);
+    position: relative;
+    bottom: 438px;
+    left: -208px;
 }
