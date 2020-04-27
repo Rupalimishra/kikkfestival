@@ -7,13 +7,13 @@ const Card1 = (props) => {
             <div  className="div-left">
                 <h1 className="heading-style">KIKK.Design</h1>
                 <h5 className="heading-style1">NOV 02-03 TH, PALAIS DES CONGRES</h5>
-                <p className="style_para">The round of KIKK.Design lectures will features</p>
-                 <p>Design who will presents on overview of</p>
+                <p className="style_para">The round of KIKK.Design lectures will features
+                                           Design who will presents on overview of</p>
                 
 
             </div>
             <div className="div-right">
-            <img src={kikkfestival} alt="kikfestival"/>
+            <img className="img1" src={kikkfestival} alt="kikfestival"/>
             </div>
         </div>
     )

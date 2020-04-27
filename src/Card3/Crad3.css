@@ -1,17 +1,16 @@
 .div-right-image {
 position: relative;
 left: 723px;
-bottom: 524px;
+bottom: 292px;
 }
 .Aad-heading {
-    font-weight: 700;
     font-size: .625rem;
     line-height: 2.6;
     letter-spacing: .4em;
     text-transform: uppercase;
     color: #00b69d;
     position: relative;
-    bottom: 316px;
+    bottom: 247px;
 }
 .div-left-heading{
     position: relative;
@@ -21,7 +20,7 @@ bottom: 524px;
 .styhead {
     width: 30%;
     position: relative;
-    bottom: 326px;
+    bottom: 255px;
     font-size: 1.0625rem;
     line-height: 1.9;
     color: rgba(185, 215, 255, 0.5);
@@ -30,11 +29,27 @@ bottom: 524px;
     font-family: California,Times,Georgia,serif;
     color: #fff;
     font-size: 3.5rem;
-    font-size: 5rem;
     line-height: 1.05;
     text-shadow: 0 0 42px #2f9d9c;
     transform: rotate(-20deg);
     position: relative;
-    bottom: 438px;
-    left: -208px;
+    bottom: 228px;
+    left: -129px;
+    width: 25%;
+}.img2:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0%{transform: translate(1px, 1px)rotate(0deg);}
+    10%{transform: translate(-1px, -2px)rotate(-1deg);}
+    20%{transform: translate(-3px, 0px)rotate(1deg);}
+    30%{transform: translate(3px, 2px)rotate(0deg);}
+    40%{transform: translate(1px, -1px)rotate(1deg);}
+    50%{transform: translate(-1px, 2px)rotate(1deg);}
+    60%{transform: translate(-3px, 1px)rotate(0deg);}
+    70%{transform: translate(3px, 1px)rotate(-1deg);}
+    80%{transform: translate(-1px, -1px)rotate(1deg);}
+    90%{transform: translate(1px, 2px)rotate(0deg);}
+    100%{transform: translate(1px, -2px)rotate(-2deg);}
 }

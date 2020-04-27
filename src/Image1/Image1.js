@@ -8,6 +8,9 @@ class Image1 extends Component {
                 <div className="div-left">
                 <img className="logo-style" src={kikkfestival} alt="kikfestival" />
                 </div>
+                <div className="text-sty">
+               
+                </div>
                
             </div>
         )

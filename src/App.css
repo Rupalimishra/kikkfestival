@@ -2,4 +2,27 @@
    font-family: 'Oswald', sans-serif;
    
  }
+ .bubble{
+     position: absolute;
+     bottom: 0;
+     width: 40px;
+     height: 40px;
+     background: #f1f1f1;
+     border-radius: 50%;
+     opacity: 0.5;
+     animation: 10s infinite ease-in;
+ }
  
+ @keyframes flying {
+     0% {
+         bottom: -100px;
+         transform: translateX(0);
+     }
+     50%{
+         transform: translateX(1);
+     }
+     100%{
+         bottom: 1080px;
+         transform: translateX(0);
+     }
+ }

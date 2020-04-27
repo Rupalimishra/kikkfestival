@@ -1,30 +1,27 @@
 .divleft-style{
     padding: 115px;
     position: relative;
-    bottom: 503px;
+    bottom: 244px;
     right: -37px;
 }
 .Artist-heading {
-    font-weight: 700;
     font-size: .625rem;
     line-height: 2.6;
     letter-spacing: .4em;
     text-transform: uppercase;
     color: #00b69d;
     position: relative;
-    top: -1102px;
+    top: -918px;
     left: 621px;
 }
 .stylehead{
     width: 30%;
     float: right;
     position: relative;
-    bottom: 1125px;
+    bottom: 935px;
     right: 284px;
-    overflow: hidden;
     font-size: 1.0625rem;
     line-height: 1.9;
-    max-height: 96.9px;
     color: rgba(185, 215, 255, 0.5);
 }
 .main-cont-style{
@@ -36,6 +33,6 @@
     text-shadow: 0 0 42px #2f9d9c;
     transform: rotate(-20deg);
     position: relative;
-    bottom: 1262px;
+    bottom: 1074px;
     left: 372px;
 }

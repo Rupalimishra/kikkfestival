@@ -6,7 +6,7 @@ const Card4 = (props) => {
     return(
         <div>
             <div className="divleft-style">
-            <img src={kikkfestival} alt="kikfestival"/>   
+            <img className="img3" src={kikkfestival} alt="kikfestival"/>   
 
             </div>
             <div className="divright-style">

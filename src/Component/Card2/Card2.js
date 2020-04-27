@@ -8,15 +8,15 @@ const Card2 = (props) => {
     return(
         <div className="main-div">
              <div className="left-div-style">
-             <img src={kikkfestival} alt="kikfestival"/>                                                 
+             <img className="img" src={kikkfestival} alt="kikfestival"/>                                                 
              </div>
              <div className="div-right-style">
                  <h2 className="main-sub-heading">BRUCE STERLING</h2>
                  <h5 className="Auth-style">SCIENCE FICTION AUTHOR</h5>
                  <div className="Bruce-style">
-                 <p>Bruce sterling is an American</p>
-                 <p>Science iction author, journalist</p>
-                 <p>editor and critic best know for his...</p>
+                 <p className="main-sty">Bruce sterling is an American
+                                        Science friction author,journalist
+                                        </p>
 
                  </div>
                 

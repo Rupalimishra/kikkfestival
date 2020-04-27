@@ -12,7 +12,7 @@ import kikkfestival from '../assest3/Image/img6.jpg';
          towords the world we want so with</p>
         </div>
         <div className="div-right-image">
-        <img src={kikkfestival} alt="kikfestival"/>   
+        <img className="img2" src={kikkfestival} alt="kikfestival"/>   
         </div>
     </div>
      )

@@ -9,7 +9,7 @@ const KikkPro = (props) => {
         
         <div className="Card-festival">
            <Card >
-               <img src={kikkfestival} alt="kikfestival"/>
+               <img className="img4"  src={kikkfestival} alt="kikfestival"/>
          
            <div className="div-right">
                <h1 className="heading-style">KIKK . Pro</h1>

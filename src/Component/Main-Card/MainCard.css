@@ -3,7 +3,6 @@ background-color: #4da69a;
 position: absolute;
 z-index: 1;
 top: 3132px;
-width: 100%;
 height: 100%;
 }
 .div-left{
@@ -25,15 +24,15 @@ height: 100%;
     width: 80%;
     float: right;
     position: relative;
-    left: 318px;
+    left: 390px;
 }
 .section-backround-text{
     position: absolute;
-    transform: skewY(-16deg);
+    transform: skewY(-18deg);
     z-index: -1;
     font-family: California,Times,Georgia,serif;
     font-style: normal;
     font-size: 6rem;
     color: rgba(33,151,135,.6);
-    font-size: 13.4375rem;
+    font-size: 10.4375rem;;
 }
