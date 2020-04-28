@@ -1,0 +1,49 @@
+.headsty {
+    font-weight: 300;
+    display: block;
+    font-size: 1.0625rem;
+    font-variant: small-caps;
+    letter-spacing: .55em;
+    text-transform: lowercase;
+    color: hsla(0,0%,100%,.8);
+    margin-bottom: 15px;
+}
+.headsty1 {
+    font-weight: 300;
+    display: block;
+    font-size: 1.0625rem;
+    font-variant: small-caps;
+    letter-spacing: .55em;
+    text-transform: lowercase;
+    color: hsla(0,0%,100%,.8);
+    margin-bottom: 15px;
+}
+.mainpara{
+    font-family: Domaine Disp,Times,Georgia,serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #fff;
+}
+.mainpara1{
+    font-family: Domaine Disp,Times,Georgia,serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #fff;
+}
+.right-head-sty{
+    font-family: Domaine Disp,Times,Georgia,serif;
+    font-weight: 500;
+    font-size: 3.4375rem;
+    line-height: 1.1;
+    letter-spacing: -.02em;
+    color: #0b1e38;
+    margin-bottom: 40px;
+}
+.rightsty{
+    color: rgba(7,20,37,.8);
+    font-size: 1rem;
+}

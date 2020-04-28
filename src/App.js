@@ -12,10 +12,9 @@ class App extends Component {
       <div>
         <Header />
         <Video /> 
-        <Image1 />
+        <Image1 /> 
         <MainCard />
-        <KikkPro />
-  
+         <KikkPro />
       </div>
       
     );

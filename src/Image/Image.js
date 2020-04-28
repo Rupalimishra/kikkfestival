@@ -1,4 +1,6 @@
 import React, { Component } from 'react'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faTwitter,faInstragram, faVimeo } from '@fortawesome/free-solid-svg-icons'
 import './Image.css';
 class Image extends Component {
     render() {
@@ -7,7 +9,19 @@ class Image extends Component {
                 <p>Follow us</p>
                 <ul>
                     <li>
-                    <a href="#" className="fa fa-facebook"></a>
+                       <link>
+                       <FontAwesomeIcon icon={faFacebook} />
+                       </link>
+                       <link>
+                       <FontAwesomeIcon  icon={faTwitter}/>
+                       </link>
+                       <link>
+                       <FontAwesomeIcon  icon={faInstragram}/>
+                       </link>
+                       <link>
+                       <FontAwesomeIcon  icon={faVimeo}/>
+                       </link>
+                
 
                     </li>
                 </ul>
