@@ -29,7 +29,7 @@ const Header = (props) => {
             <li className="menu_list-item"><a href="#" className="left">ABOUT</a></li>
             <li className="menu_list-item"><a href="#" className="left">SPONSORS</a></li>
              <ul className="menu_button">
-                 <li className="hide-style">Get tickets</li>
+                 <li className="hide-style"><i className="arrow">Get tickets</i></li>
                  </ul>
                  <ul className="menu_button1">
                      <li>Free tickets</li>

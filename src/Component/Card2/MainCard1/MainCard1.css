@@ -35,7 +35,8 @@
     color: #fff;
 }
 .right-head-sty{
-    font-family: Domaine Disp,Times,Georgia,serif;
+    width: 52%;
+    font-family:  "Domaine Disp",Times,Georgia,serif;
     font-weight: 500;
     font-size: 3.4375rem;
     line-height: 1.1;
@@ -46,4 +47,37 @@
 .rightsty{
     color: rgba(7,20,37,.8);
     font-size: 1rem;
+}
+.left-sty-top{
+    width: 30%;
+    position: relative;
+    bottom: 356px;
+}
+.left-sty-bottom{
+    width: 30%;
+    position: relative;
+    bottom: 338px;
+}
+.right-sty-div {
+    position: relative;
+    bottom: 640px;
+    float: right;
+    width: 56%;
+    background-color: #fff;
+    height: 608px;
+}
+.right-bottom-tag {
+    border-left: 1px solid #fff;
+    height: 251px;
+    position: absolute;
+    top: 438px;
+}
+.left-bottom-tag{
+    position: absolute;
+    top: 472px;
+    left: 287px;
+}
+.imgsty{
+    position: relative;
+    left: -533px;
 }

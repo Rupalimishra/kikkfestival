@@ -1,0 +1,80 @@
+.bg-bubbles{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    bottom: 545px;
+}
+.bg-bubbles > span {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.15);
+    animation: move-up 15s linear infinite;
+}
+@keyframes move-up {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(-1000px);
+  }
+}
+.bg-bubbles>span.one {
+    left: 10%;
+}
+.bg-bubbles>span.two {
+    left: 20%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 2s;
+}
+.bg-bubbles>span.tree {
+    left:25%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 4s;
+}
+.bg-bubbles>span.Four {
+    left: 40%;
+    width: 70px;
+    height: 70px;
+    animation-delay: 6s;
+}
+.bg-bubbles>span.five{
+    left: 70%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 8s;
+
+}
+.bg-bubbles>span.six{
+    left:  80%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 10s;
+}
+.bg-bubbles>span.seven{
+    left: 30%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 12s;
+}
+.bg-bubbles>span.eight{
+    left: 55%;
+    width: 90px;
+    height: 90px;
+    animation-delay:  10s ;
+}
+.bg-bubbles>span.nine{
+    left: 25%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 8s;
+}
+.bg-bubbles>span.ten{
+    left: 90%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 6s ;
+}

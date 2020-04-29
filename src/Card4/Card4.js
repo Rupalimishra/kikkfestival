@@ -1,6 +1,7 @@
 import React from 'react';
 import './Card4.css';
 import kikkfestival from '../assest4/Image/img4.jpg';
+import Bubble from '../Bubble/Bubble';
 
 const Card4 = (props) => {
     return(
@@ -15,6 +16,7 @@ const Card4 = (props) => {
                 <p className="stylehead">The history of networked communication and digital
                    communication and digital technology is, for The</p>
             </div>
+            <Bubble />
         </div>
     )
 }
