@@ -7,7 +7,7 @@ const Card4 = (props) => {
     return(
         <div>
             <div className="divleft-style">
-            <img className="img3" src={kikkfestival} alt="kikfestival"/>   
+            <img className="img4" src={kikkfestival} alt="kikfestival"/>   
 
             </div>
             <div className="divright-style">
@@ -15,6 +15,7 @@ const Card4 = (props) => {
                 <h5 className="Artist-heading">ARTIST.WRITER</h5>
                 <p className="stylehead">The history of networked communication and digital
                    communication and digital technology is, for The</p>
+                   <h4 className="more-detail">More details +</h4>
             </div>
             <Bubble />
         </div>

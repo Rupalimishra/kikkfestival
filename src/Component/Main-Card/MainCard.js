@@ -18,6 +18,10 @@ const MainCard =(props) => {
                 extend beyond the gallery’s walls with outdoor installations in the city and a 
                </p>
               </div>
+              <div>
+                  <h2 className="maincard-sty">see full Program</h2>
+
+              </div>
               <Card2 />
         </div>
     )

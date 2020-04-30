@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Crad3.css";
 import kikkfestival from '../assest3/Image/img6.jpg';
+import Bubble from '../Bubble/Bubble';
 
  const Card3 =(props) => {
      return(
@@ -14,8 +15,10 @@ import kikkfestival from '../assest3/Image/img6.jpg';
         <div className="div-right-image">
         <img className="img2" src={kikkfestival} alt="kikfestival"/>   
         </div>
+        <Bubble />
     </div>
      )
      
  }
+ 
  export default Card3;
