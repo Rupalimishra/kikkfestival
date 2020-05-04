@@ -2,6 +2,7 @@ import React from 'react';
 import './Card4.css';
 import kikkfestival from '../assest4/Image/img4.jpg';
 import Bubble from '../Bubble/Bubble';
+import Cardstyle from '../Cardstyle/Cardstyle';
 
 const Card4 = (props) => {
     return(
@@ -15,9 +16,10 @@ const Card4 = (props) => {
                 <h5 className="Artist-heading">ARTIST.WRITER</h5>
                 <p className="stylehead">The history of networked communication and digital
                    communication and digital technology is, for The</p>
-                   <h4 className="more-detail">More details +</h4>
             </div>
+            <Cardstyle />
             <Bubble />
+            {/* <h3 className="main-card-sty">see program</h3> */}
         </div>
     )
 }

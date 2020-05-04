@@ -10,6 +10,10 @@ height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(255,255,255,0.8);
 }
+.card-style {
+    font-size: 3.4375rem;
+    padding: 10px;
+}
 .card-style > h1 {
     font-family: "Domaine Disp",Times,Georgia,serif;
     font-weight: 500;
@@ -39,8 +43,19 @@ height: 100%;
 .maincard-sty{
     color: #0b1e38;
     float: right;
+    position: relative;
+    right: 237px;
+    top: -88px;
 }
 .maincard-sty:hover{
     cursor: pointer;
     color: #fff;
 }
+.card-main-head{
+    font-size: 3.4375rem;
+    position: absolute;
+    top: 1p;
+    bottom: 148px;
+    padding: 10px;
+}
+

@@ -28,10 +28,16 @@ class MainCard1 extends Component {
               </div>
               <div className="right-sty-div">
               <h1 className="right-head-sty">Get the latest info about KIKK</h1>
+              <div className="rightsty-head">
               <span className="rightsty">
               You wish to know everything about
                KIKK before everybody does and be 
                the center of attention, get our newsletter.
+               </span>
+               <form>
+                 <input className="style-form" type="email" placeholder="Enter your email" />
+               </form>
+              </div>
                <div>
                  <div className="left-bottom-tag">
                  <img  src={kikkfestival} alt="kikfestival"/>   
@@ -40,7 +46,6 @@ class MainCard1 extends Component {
                  <img  className="imgsty" src={Tagfestival} alt="Tagfestival"/>   
                  </div>
                </div>
-              </span>
               </div>
             </div>
         )

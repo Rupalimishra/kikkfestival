@@ -5,12 +5,12 @@ class Image1 extends Component {
     render(){
         return(
             <div>
-                <div className="div-left">
+                <div className="div-left1">
                 <img className="logo-style" src={kikkfestival} alt="kikfestival" />
                 </div>
-                <div className="text-sty">
-               
-                </div>
+                {/* <div className="text-sty">
+                  Kikk festival
+                </div> */}
                
             </div>
         )

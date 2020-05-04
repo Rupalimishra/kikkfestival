@@ -6,6 +6,9 @@
     display: inline-block;
     margin-right: 20px;
     vertical-align: middle;
+    position: relative;
+    left: 58px ;
+    top: 13px;
 }
 .div-right-sty {
     font-weight: 300;
@@ -16,4 +19,52 @@
     color: hsla(0,0%,100%,.5);
     display: inline-block;
     vertical-align: middle;
+    position: relative;
+    left: 953px;
+
 }
+.hexagon {
+    position: relative;
+    width: 80px; 
+    height: 46.19px;
+    background-color: #64C7CC;
+    margin: 23.09px 0;
+    float: right;
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+  }
+  
+  .hexagon:before {
+    bottom: 100%;
+    border-bottom: 23.09px solid #64C7CC;
+  }
+  
+  .hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 23.09px solid #64C7CC;
+    left: 0px;
+  }
+  .position-hexa{
+      top: 10px;
+  }
+  .footer-sty {
+      color: #fff;
+      font: 10px Radikal, Helvetica,Arial,Sans-serif;
+  }
+  .footer-sty{
+      position: absolute;
+      left: -278px;
+      top: -10px;
+  }
+  .footer-sty-left{
+      position: relative;
+      bottom: 19px;
+  }

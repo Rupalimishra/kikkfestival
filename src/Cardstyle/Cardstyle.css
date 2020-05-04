@@ -1,0 +1,17 @@
+.style-card-head{
+    font-family: California,Times,Georgia,serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    font-size: 1.125rem;
+    line-height: 3.3;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    z-index: 1;
+    transform: skewY(-11.5deg);
+    position: relative;
+    bottom: 1353px;
+    left: 675px;
+}

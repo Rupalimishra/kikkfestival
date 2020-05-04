@@ -1,7 +1,7 @@
 .divleft-style{
     padding: 115px;
     position: relative;
-    bottom: 244px;
+    bottom: 657px;
     right: -37px;
 }
 .Artist-heading {
@@ -11,15 +11,15 @@
     text-transform: uppercase;
     color: #00b69d;
     position: relative;
-    top: -918px;
+    top: -1336px;
     left: 621px;
 }
 .stylehead{
     width: 30%;
     float: right;
     position: relative;
-    bottom: 935px;
-    right: 284px;
+    bottom: 1334px;
+    right: 294px;
     font-size: 1.0625rem;
     line-height: 1.9;
     color: rgba(185, 215, 255, 0.5);
@@ -33,7 +33,7 @@
     text-shadow: 0 0 42px #2f9d9c;
     transform: rotate(-20deg);
     position: relative;
-    bottom: 1074px;
+    bottom: 1508px;
     left: 372px;
 }
 .img4:hover{
@@ -52,4 +52,18 @@
     80%{transform: translate(-1px, -1px)rotate(1deg);}
     90%{transform: translate(1px, 2px)rotate(0deg);}
     100%{transform: translate(1px, -2px)rotate(-2deg);}
+}
+.main-card-sty{
+    font-family: Radikal,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px 42px 10px 106px;
+    position: relative;
+    font-size: 1.1875rem;
+    line-height: 3.15;
+    letter-spacing: -.04em;
+    text-decoration: none;
+    color: #0b1e38;
+    z-index: 1;
+    transition: color .2s cubic-bezier(.165,.84,.44,1);
 }

@@ -43,6 +43,8 @@
     letter-spacing: -.02em;
     color: #0b1e38;
     margin-bottom: 40px;
+    position: relative;
+    left: 159px;
 }
 .rightsty{
     color: rgba(7,20,37,.8);
@@ -51,26 +53,29 @@
 .left-sty-top{
     width: 30%;
     position: relative;
-    bottom: 356px;
+    bottom: 579px;
+    padding: 70px;
 }
 .left-sty-bottom{
     width: 30%;
     position: relative;
-    bottom: 338px;
+    bottom: 711px;
+    padding: 70px;
 }
 .right-sty-div {
     position: relative;
-    bottom: 640px;
+    bottom: 1091px;
     float: right;
     width: 56%;
     background-color: #fff;
     height: 608px;
 }
 .right-bottom-tag {
-    border-left: 1px solid #fff;
+    /* border-left: 1px solid #fff; */
     height: 251px;
     position: absolute;
     top: 438px;
+    left: 35px;
 }
 .left-bottom-tag{
     position: absolute;
@@ -82,4 +87,22 @@
     left: -533px;
     width: 69% ;
     height: 32%;
+}
+.rightsty-head{
+    width: 58%;
+    margin: 102px;
+}
+.style-form {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1;
+    color: #0b1e38;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 16px;
+    padding-right: 50px;
+    outline: none;
+    background: transparent;
+    border: 0 none;
+    border-bottom: 2px solid rgba(11,30,56,.2);
 }

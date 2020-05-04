@@ -9,7 +9,7 @@ const MainCard =(props) => {
 
              </div>
               <h1 className="card-style">Discover the Creative</h1>
-              <h1>minds of the lineup</h1>
+              <h1 className="card-main-head">minds of the lineup</h1>
               <div className="div-left">
                <p className="main-head-sty">
                 We’ve added some dishes on the menu this year
@@ -20,7 +20,6 @@ const MainCard =(props) => {
               </div>
               <div>
                   <h2 className="maincard-sty">see full Program</h2>
-
               </div>
               <Card2 />
         </div>

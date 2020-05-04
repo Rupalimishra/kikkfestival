@@ -10,7 +10,6 @@ const Card1 = (props) => {
                 <p className="style_para">The round of KIKK.Design lectures will features
                                            Design who will presents on overview of</p>
                 
-
             </div>
             <div className="div-right">
             <img className="img1" src={kikkfestival} alt="kikfestival"/>
