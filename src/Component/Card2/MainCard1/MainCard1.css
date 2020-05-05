@@ -49,6 +49,8 @@
 .rightsty{
     color: rgba(7,20,37,.8);
     font-size: 1rem;
+    position: relative;
+    left: 65px;
 }
 .left-sty-top{
     width: 30%;
@@ -93,6 +95,8 @@
     margin: 102px;
 }
 .style-form {
+    position: relative;
+    left: 60px;
     font-weight: 500;
     font-size: 1rem;
     line-height: 1;

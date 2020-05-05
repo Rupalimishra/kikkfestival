@@ -30,6 +30,8 @@
     background-color: #64C7CC;
     margin: 23.09px 0;
     float: right;
+    /* border-left: solid 2px #fff;
+    border-right: solid 2px #fff; */
   }
   
   .hexagon:before,

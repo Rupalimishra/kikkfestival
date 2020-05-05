@@ -11,7 +11,10 @@ return(
                 width: "100%",
                 height: "100%",
                 objectFit: "cover",
-                zIndex: "-1"
+                zIndex: "-1",
+                position:"relative",
+                top: "-57px",
+                bottom:"59px"
             }}>
                 <source src="https://www.kikk.be/2017/files/templates/kikk2017/public/assets/videos/king-kong.mp4?v=2" />
             </video>

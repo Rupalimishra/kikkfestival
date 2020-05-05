@@ -10,8 +10,8 @@ class Image1 extends Component {
                 </div>
                 {/* <div className="text-sty">
                   Kikk festival
-                </div> */}
-               
+                </div>
+                */}
             </div>
         )
     }

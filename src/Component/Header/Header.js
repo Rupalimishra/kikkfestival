@@ -5,6 +5,10 @@ const Header = (props) => {
     return(
         <header>
             <nav>
+                <div className="nav-head-sty">
+                <h1>Kikk festival</h1>
+                </div>
+               
             <ul className="menu_list">
             <li className="menu_list-item"> <a href="#" className="left">LIVE</a></li>
             
