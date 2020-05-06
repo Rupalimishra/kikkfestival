@@ -1,0 +1,45 @@
+.style-text{
+    width: 80%;
+    padding: 5px 22px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border:  2px solid #58B195;
+}
+.style-email{
+    width: 80%;
+    padding: 5px 22px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border:  2px solid #58B195;
+}
+.style-number{
+    width: 80%;
+    padding: 5px 22px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border:  2px solid #58B195;
+}
+.style-age{
+    width: 80%;
+    padding: 5px 22px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border:  2px solid #58B195;
+}
+
+
+.textarea {
+    width: 80%;
+    height: 50px;
+    padding: 15px 22px;
+    box-sizing: border-box;
+    border: 2px solid #58B195;
+    border-radius: 2px;
+    resize: none;
+}
+.submit-sty{
+    background-color: #5f09bb;
+    border: none;
+    color: white;
+    padding: 8px 36px;
+}
