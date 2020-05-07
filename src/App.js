@@ -7,10 +7,8 @@ import Image1 from './Image1/Image1';
 import MainCard from './Component/Main-Card/MainCard';
 import MianHeader from './MianHeader/MianHeader';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-// import Form from './Form/Form';
-import GetTickets from './GetTickets/GetTickets';
-// import Login from './Component/Card2/MainCard1/Login/Login';
-
+import Form from './Form/Form';
+import Ticket from './Ticket/Ticket';
 
 class App extends Component {
   render() {
@@ -20,13 +18,14 @@ class App extends Component {
         <MianHeader />
         <Header />
         <Switch>
-        {/* <Route path="/form" component={Form} /> */}
-        <Route  path="/gettickets"  component={GetTickets}/>
+        <Route path="/ticket" component={Ticket} />
+        <Route path="/form" component={Form} />
         </Switch>
         <Video /> 
         <Image1 /> 
         <MainCard />
-         <KikkPro />
+        <KikkPro />
+        
       </div>
       </BrowserRouter>
       

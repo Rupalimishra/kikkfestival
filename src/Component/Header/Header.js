@@ -34,7 +34,7 @@ const Header = (props) => {
             <li className="menu_list-item"><a href="#" className="left">ABOUT</a></li>
             <li className="menu_list-item"><a href="#" className="left">SPONSORS</a></li>
              <ul className="menu_button">
-                 <li className="hide-style"><Link to="GetTickets">Get tickets</Link></li>
+                 <li className="hide-style"><Link to="Ticket">Ticket</Link></li>
                  </ul>
                  <ul className="menu_button1">
                      <li>Free tickets</li>
