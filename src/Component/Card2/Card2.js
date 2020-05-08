@@ -5,6 +5,7 @@ import Card3 from '../../Card3/Card3';
 import Card4 from '../../Card4/Card4';
 import Footer from '../../Footer/Footer';
 import MainCard1 from './MainCard1/MainCard1';
+// import Bubble from '../../Bubble/Bubble';
 const Card2 = (props) => {
     return(
         <div className="main-div">
@@ -22,6 +23,7 @@ const Card2 = (props) => {
                  </div>
                 
              </div>
+             {/* <Bubble /> */}
              <Card3 />
              <Card4 />
              <MainCard1 />

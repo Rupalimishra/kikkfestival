@@ -35,4 +35,28 @@ it('renders email input with label given the type', () => {
   expect(input.prop('name')).toEqual('email');
   expect(input.prop('id')).toEqual('email');
 });
+it('renders mobile no input with label given the type', () => {
+  const wrapper = mount(<Form type="mobile no" name="mobile no" label="Mobile no" />);
+  const label = wrapper.find('label');
+  expect(label).toHaveLength(1);
+  expect(label.prop('htmlFor')).toEqual('mobile no');
+  expect(label.text()).toEqual('Mobile no');
+  const input = wrapper.find('input');
+  expect(input).toHaveLength(1);
+  expect(input.prop('type')).toEqual('mobile no');
+  expect(input.prop('name')).toEqual('mobile no');
+  expect(input.prop('id')).toEqual('mobile no');
+});
+it('renders password input with label given the type', () => {
+  const wrapper = mount(<Form type="password" name="password" label="Password" />);
+  const label = wrapper.find('label');
+  expect(label).toHaveLength(1);
+  expect(label.prop('htmlFor')).toEqual('password');
+  expect(label.text()).toEqual('Password');
+  const input = wrapper.find('input');
+  expect(input).toHaveLength(1);
+  expect(input.prop('type')).toEqual('password');
+  expect(input.prop('name')).toEqual('password');
+  expect(input.prop('id')).toEqual('password');
+});
 })

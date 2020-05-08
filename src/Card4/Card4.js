@@ -3,7 +3,7 @@ import './Card4.css';
 import kikkfestival from '../assest4/Image/img4.jpg';
 import Bubble from '../Bubble/Bubble';
 import Cardstyle from '../Cardstyle/Cardstyle';
-// import Form from '../Form/Form';
+
 
 const Card4 = (props) => {
     return(
@@ -20,8 +20,7 @@ const Card4 = (props) => {
             </div>
             <Cardstyle />
             <Bubble />
-            {/* <h3 className="main-card-sty">see program</h3> */}
-            {/* <Form /> */}
+            
         </div>
     )
 }

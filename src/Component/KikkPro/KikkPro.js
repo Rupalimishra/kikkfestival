@@ -4,6 +4,7 @@ import kikkfestival from '../../assest/Image/img1.jpg';
 import Card1 from '../Card1/Card1';
 import './KikkPro.css';
 import Textstyle from '../../Textstyle/Textstyle';
+// import Bubble from '../../Bubble/Bubble';
 const KikkPro = (props) => {
     return(
         
@@ -17,6 +18,7 @@ const KikkPro = (props) => {
                <p className="style2">The village is the best way to network and make</p>
               <p className="style3">  new business connections at the KIKK festival</p>
            </div>
+           {/* <Bubble /> */}
            <Textstyle />
            </Card>
            <Card1 />

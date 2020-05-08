@@ -1,6 +1,7 @@
 import React from 'react';
 import './Card1.css';
 import kikkfestival from '../../assert1/Image/img3.jpg';
+// import Bubble from '../../Bubble/Bubble';
 const Card1 = (props) => {
     return(
         <div>
@@ -14,6 +15,7 @@ const Card1 = (props) => {
             <div className="div-right">
             <img className="img1" src={kikkfestival} alt="kikfestival"/>
             </div>
+            {/* <Bubble /> */}
         </div>
     )
 }
