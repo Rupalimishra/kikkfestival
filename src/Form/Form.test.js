@@ -1,39 +1,39 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
+import { spy } from 'sinon';
 import  Form  from '../Form/Form';
 
 describe('Test case for testing form',() =>{
 
 it('calls onSubmit prop function when form is submitted', () => {
   const submituserRegistrationForm = jest.fn();
-  const wrapper = mount(<Form onSubmit={submituserRegistrationForm}/>);
+  const wrapper = shallow(<Form onSubmit={submituserRegistrationForm}/>);
   const form = wrapper.find('form');
   form.simulate('submit');
   expect(submituserRegistrationForm).toHaveBeenCalledTimes(1);
 });
 it('renders text input with label (default type)', () => {
-  const wrapper = mount(<Form name="first_name" label="First Name" />);
+  const wrapper = mount(<Form name="name" label="Name" />);
   const label = wrapper.find('label');
   expect(label).toHaveLength(1);
-  expect(label.prop('htmlFor')).toEqual('first_name');
-  expect(label.text()).toEqual('First Name');
+  expect(label.prop('htmlFor')).toEqual('name');
+  expect(label.text()).toEqual('Name');
   const input = wrapper.find('input');
   expect(input).toHaveLength(1);
   expect(input.prop('type')).toEqual('text');
-  expect(input.prop('name')).toEqual('first_name');
-  expect(input.prop('id')).toEqual('first_name');
+  expect(input.prop('name')).toEqual('username');
+  
 });
 it('renders email input with label given the type', () => {
-  const wrapper = mount(<Form type="email" name="email" label="Email" />);
+  const wrapper = mount(<Form type="email" name="emailid" label="Email ID" />);
   const label = wrapper.find('label');
   expect(label).toHaveLength(1);
-  expect(label.prop('htmlFor')).toEqual('email');
-  expect(label.text()).toEqual('Email');
+  expect(label.prop('htmlFor')).toEqual('emailid');
+  expect(label.text()).toEqual('Email ID');
   const input = wrapper.find('input');
   expect(input).toHaveLength(1);
   expect(input.prop('type')).toEqual('email');
-  expect(input.prop('name')).toEqual('email');
-  expect(input.prop('id')).toEqual('email');
+  expect(input.prop('name')).toEqual('emailid');
 });
 it('renders mobile no input with label given the type', () => {
   const wrapper = mount(<Form type="mobile no" name="mobile no" label="Mobile no" />);
@@ -45,7 +45,6 @@ it('renders mobile no input with label given the type', () => {
   expect(input).toHaveLength(1);
   expect(input.prop('type')).toEqual('mobile no');
   expect(input.prop('name')).toEqual('mobile no');
-  expect(input.prop('id')).toEqual('mobile no');
 });
 it('renders password input with label given the type', () => {
   const wrapper = mount(<Form type="password" name="password" label="Password" />);
@@ -57,6 +56,51 @@ it('renders password input with label given the type', () => {
   expect(input).toHaveLength(1);
   expect(input.prop('type')).toEqual('password');
   expect(input.prop('name')).toEqual('password');
-  expect(input.prop('id')).toEqual('password');
+  
 });
+test('<form> element should have onSubmit attribute', () => {
+  expect(
+    wrapper.props.onSubmit
+  ).toBeDefined();
+});
+test('onSubmit attrubute should be of type `function`' , () =>{
+  expect(
+    typeof wrapper.props().onSubmit === 'function'
+  ).toBe(true);
+  
+});
+ describe('`<input>` ',() => {
+   test('<input> element should be of type text' , ()=> {
+     expect(
+       wrapper.find('form').childAt(0).props().type
+     ).toBe('text');
+   });
+  
+   test('should display an error when no value is input',() => {
+    const validation = spy();
+    wrapper = mount(<Form validation={validation}/>);
+    wrapper.find('form').simulate('Register');
+    expect(
+      wrapper.state().fieldErrors.name
+    ).toBe('Please enter your username');
+  });
+  test('should display an error when no value is input',() => {
+    const validation = spy();
+    wrapper = mount(<Form validation={validation}/>);
+    wrapper.find('form').simulate('Register');
+    expect(
+      wrapper.state().fieldErrors.emailid
+    ).toBe('Please enter your  emailid');
+  });
+  test('should display an error when no value is input',() => {
+    const validation = spy();
+    wrapper = mount(<Form validation={validation}/>);
+    wrapper.find('form').simulate('Register');
+    expect(
+      wrapper.state().fieldErrors.password
+    ).toBe('Please enter your password');
+  });
+ })
 })
+
+
