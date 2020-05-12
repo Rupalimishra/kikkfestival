@@ -112,7 +112,7 @@ class Form extends React.Component {
         <h3>Registration page</h3>
         <form method="post"  name="userRegistrationForm"  onSubmit={this.submituserRegistrationForm} >
         <label>Name</label>
-        <input type="text" name="username" value={this.state.fields.username} onChange={this.handleChange} />
+        <input type="text" name="username" value={this.state.fields.username} id="email" onChange={this.handleChange} />
         <div className="errorMsg">{this.state.errors.username}</div>
         <label>Email ID:</label>
         <input type="email" name="emailid" value={this.state.fields.emailid} onChange={this.handleChange}  />
@@ -123,7 +123,7 @@ class Form extends React.Component {
         <label>Password</label>
         <input type="password" name="password" value={this.state.fields.password} onChange={this.handleChange} />
         <div className="errorMsg">{this.state.errors.password}</div>
-        <input type="submit" className="button"  value="Register"/>
+        <input type="submit" className="button" value="Register"/>
         </form>
     </div>
 </div>

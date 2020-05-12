@@ -1,106 +1,61 @@
+
 import React from 'react';
-import { shallow } from 'enzyme';
-import { spy } from 'sinon';
-import  Form  from '../Form/Form';
+import { configure, shallow, mount } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+import Form from './Form';
+configure({ adapter: new Adapter()});
 
-describe('Test case for testing form',() =>{
+it('show the alert message', ()=> {
+  const from = shallow(<Form />);
+  const spy = jest.spyOn(from.instance(),"submituserRegistrationForm" );
+  from.instance().forceUpdate();
+  const e = {
+    alert: "form submited"
+  }
+  form.find("button").simulate("onSubmit", e);
+   expect(spy).toHaveBeenCalledWith(e);
+})
+it('render the onChange event', user => {
+const UserComponent = mount(<Form />),
+userInput = EmailComponent.find("input[type='text']");
+UserComponent.instance().handleChange = jest.fun();
+userInput.simulate('change', {target: {value: "Parul"}});
+user();
 
-it('calls onSubmit prop function when form is submitted', () => {
-  const submituserRegistrationForm = jest.fn();
-  const wrapper = shallow(<Form onSubmit={submituserRegistrationForm}/>);
-  const form = wrapper.find('form');
-  form.simulate('submit');
-  expect(submituserRegistrationForm).toHaveBeenCalledTimes(1);
-});
-it('renders text input with label (default type)', () => {
-  const wrapper = mount(<Form name="name" label="Name" />);
-  const label = wrapper.find('label');
-  expect(label).toHaveLength(1);
-  expect(label.prop('htmlFor')).toEqual('name');
-  expect(label.text()).toEqual('Name');
-  const input = wrapper.find('input');
-  expect(input).toHaveLength(1);
-  expect(input.prop('type')).toEqual('text');
-  expect(input.prop('name')).toEqual('username');
-  
-});
-it('renders email input with label given the type', () => {
-  const wrapper = mount(<Form type="email" name="emailid" label="Email ID" />);
-  const label = wrapper.find('label');
-  expect(label).toHaveLength(1);
-  expect(label.prop('htmlFor')).toEqual('emailid');
-  expect(label.text()).toEqual('Email ID');
-  const input = wrapper.find('input');
-  expect(input).toHaveLength(1);
-  expect(input.prop('type')).toEqual('email');
-  expect(input.prop('name')).toEqual('emailid');
-});
-it('renders mobile no input with label given the type', () => {
-  const wrapper = mount(<Form type="mobile no" name="mobile no" label="Mobile no" />);
-  const label = wrapper.find('label');
-  expect(label).toHaveLength(1);
-  expect(label.prop('htmlFor')).toEqual('mobile no');
-  expect(label.text()).toEqual('Mobile no');
-  const input = wrapper.find('input');
-  expect(input).toHaveLength(1);
-  expect(input.prop('type')).toEqual('mobile no');
-  expect(input.prop('name')).toEqual('mobile no');
-});
-it('renders password input with label given the type', () => {
-  const wrapper = mount(<Form type="password" name="password" label="Password" />);
-  const label = wrapper.find('label');
-  expect(label).toHaveLength(1);
-  expect(label.prop('htmlFor')).toEqual('password');
-  expect(label.text()).toEqual('Password');
-  const input = wrapper.find('input');
-  expect(input).toHaveLength(1);
-  expect(input.prop('type')).toEqual('password');
-  expect(input.prop('name')).toEqual('password');
-  
-});
-test('<form> element should have onSubmit attribute', () => {
-  expect(
-    wrapper.props.onSubmit
-  ).toBeDefined();
-});
-test('onSubmit attrubute should be of type `function`' , () =>{
-  expect(
-    typeof wrapper.props().onSubmit === 'function'
-  ).toBe(true);
-  
-});
- describe('`<input>` ',() => {
-   test('<input> element should be of type text' , ()=> {
-     expect(
-       wrapper.find('form').childAt(0).props().type
-     ).toBe('text');
-   });
-  
-   test('should display an error when no value is input',() => {
+expect(UserComponent.instance().handleChange.mock.calls.length).toBe(1);
+})
+describe("render the form validation", () => {
+  test("should display an error when no value is input filed  EmailId", () => {
     const validation = spy();
-    wrapper = mount(<Form validation={validation}/>);
-    wrapper.find('form').simulate('Register');
-    expect(
-      wrapper.state().fieldErrors.name
-    ).toBe('Please enter your username');
-  });
-  test('should display an error when no value is input',() => {
-    const validation = spy();
-    wrapper = mount(<Form validation={validation}/>);
+    wrapper = mount(<Form validation={validation} />)
     wrapper.find('form').simulate('Register');
     expect(
       wrapper.state().fieldErrors.emailid
-    ).toBe('Please enter your  emailid');
-  });
-  test('should display an error when no value is input',() => {
-    const validation = spy();
-    wrapper = mount(<Form validation={validation}/>);
+    ).toBe('Please enter your emailid');
+
+  })
+  test("should dispaly an error when no value is input filed Username ", () => {
+     validation = spy();
+     wrapper = mount(<Form validation={validation} />)
+     wrapper.find('form').simulate('Register');
+     expect(
+       wrapper.state().fieldErrors.username
+     ).toBe("please enter your username");
+  })
+  test("should display an error when no value is input filed mobileno", () => {
+    validation = spy();
+    wrapper = mount(<Form  validation={validation}/>)
+    wrapper.find('form').simulate('Register');
+    expect(
+      wrapper.state().fieldErrors.mobileno
+    ).toBe("please enter your number");
+  })
+  test("should display an error when no value is input filed password", ()=> {
+    validation = spy();
+    wrapper = mount(<Form  validation={validation}/>)
     wrapper.find('form').simulate('Register');
     expect(
       wrapper.state().fieldErrors.password
-    ).toBe('Please enter your password');
-  });
- })
+    ).toBe("please enter your password");
+  })
 })
-
-

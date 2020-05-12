@@ -2,8 +2,8 @@ import React from 'react';
 import Image1 from '../Image1/Image1';
 import './Video.css';
 
-const Video =(props) =>{
-return(
+const Video =() =>{
+return( 
     
         <div>
             <video autoPlay loop muted
@@ -18,9 +18,9 @@ return(
             }}>
                 <source src="https://www.kikk.be/2017/files/templates/kikk2017/public/assets/videos/king-kong.mp4?v=2" />
             </video>
-        <div className="test_style"> 
-         <h3 className="event-date">NOV 02 - 04 <sup>TH</sup> 2017</h3>
-         <h4 className="event-location">NAMUP, BELGUM</h4>
+          <div className="test_style"> 
+          <h3 className="event-date">NOV 02 - 04 <sup>TH</sup> 2017</h3>
+          <h4 className="event-location">NAMUP, BELGUM</h4>
 
          <Image1 />
          
